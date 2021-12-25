@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: hdhr/docker-react:latest
+    image: hdhr/hello-react:latest
     container_name: web
     restart: unless-stopped
     ports:
